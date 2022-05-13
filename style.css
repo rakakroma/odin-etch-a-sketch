@@ -1,0 +1,23 @@
+/* * {
+  border: 1px solid salmon;
+} */
+
+#container {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+.grid-squares {
+  background-color: aqua;
+}
+.grid-squares:hover {
+  background-color: rgb(13, 83, 83);
+  transition: background-color 10ms linear;
+}
+
+.hovered {
+  background-color: rgb(23, 88, 217);
+}
